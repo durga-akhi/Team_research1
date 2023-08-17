@@ -1,0 +1,15 @@
+group: a_group_129
+members: [Pratyush Garg, Mohamed Aves Cutleriwala, Venkata Naga Durga Akhila Tavva, Mohammad Mudassir, Chandra Shekar Ballankala]
+topic: Heart Diseases
+RQ: Is there a difference in the mean Cholesterol level in Cleveland between Male and Female population?
+independent-var: sex
+dependent-var: cholestoral
+null-hypothesis: There is no difference in the mean Cholesterol levels in Cleveland between male and female population.
+alt-hypothesis: There is a difference in the mean Cholesterol level in Cleveland between male and female population.
+dataset-url: https://data.world/uci/heart-disease
+columns: |
+  > df <- read.csv("workingDataset.csv")
+  > colnames(df)
+   [1] "age"          "sex"         "chest_pain"  "rstng_BP"    "cholestoral" "fbs"        
+   [7] "restecg"      "max_HR"      "exang"       "oldpeak"     "slope"       "ca"         
+   [13] "thal"        "num"
